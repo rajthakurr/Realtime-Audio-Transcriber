@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+logging:
+  level:
+    root: DEBUG
+    com.audio.transcription: DEBUG
+    org.springframework: DEBUG
+
+gemini:
+  api:
+    timeout-seconds: 60
+    max-retries: 5

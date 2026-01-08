@@ -1,0 +1,55 @@
+spring:
+  application:
+    name: audio-transcription-service
+  webflux:
+    base-path: /api
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    default-property-inclusion: non_null
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain
+
+gemini:
+  api:
+    key: ${AIzaSyCQIBSiFdZjhtzGlhibFeHbc4qSPpjaQOM}
+    url: https://generativelanguage.googleapis.com/v1beta/models
+    model: gemini-2.0-flash
+    timeout-seconds: 30
+    max-retries: 3
+    retry-delay-ms: 1000
+
+audio:
+  chunk:
+    size: 4096
+    format: WAV
+  processing:
+    buffer-size: 10
+    max-concurrent-sessions: 100
+
+logging:
+  level:
+    root: INFO
+    com.audio.transcription: DEBUG
+    org.springframework.web: INFO
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    export:
+      simple:
+        enabled: true
