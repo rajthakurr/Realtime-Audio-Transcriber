@@ -1,0 +1,17 @@
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\config\GeminiProperties.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\dto\GeminiRequest.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\handler\AudioStreamWebSocketHandler.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\service\AudioProcessingService.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\dto\AudioChunkRequest.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\config\ResilienceConfig.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\config\AudioProperties.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\util\AudioUtil.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\AudioTranscriptionApplication.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\controller\TranscriptionController.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\service\GeminiTranscriptionService.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\config\HttpClientConfig.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\dto\WebSocketMessage.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\config\WebSocketConfig.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\dto\GeminiResponse.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\dto\TranscriptionResponse.java
+D:\Internship\audio-transcription-backend\src\main\java\com\audio\transcription\util\CommonUtil.java
