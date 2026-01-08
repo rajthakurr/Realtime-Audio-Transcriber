@@ -35,6 +35,22 @@ Designed for **low latency**, **network resilience**, and **efficient resource u
 
 ---
 
+## 📸 Screenshots
+
+Below are sample screenshots demonstrating the service in action:
+
+<p align="center">
+  <img src="screenshots/screenshot-1.png" alt="Audio Transcription WebSocket Flow" width="800"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/screenshot-2.png" alt="Realtime Transcription Output" width="800"/>
+</p>
+
+> 📁 Place your images inside a `screenshots/` folder in the root of the repository.
+
+---
+
 ## 📦 Prerequisites
 
 ### System Requirements
@@ -42,7 +58,10 @@ Designed for **low latency**, **network resilience**, and **efficient resource u
 - Maven **3.8+**
 - Internet access to **Google Gemini API**
 
-### 🔑 Gemini API Key
+---
+
+## 🔑 Gemini API Key
+
 1. Visit 👉 https://aistudio.google.com  
 2. Create an API key  
 3. Set it as an environment variable:
