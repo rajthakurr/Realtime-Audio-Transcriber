@@ -39,12 +39,12 @@ Designed for **low latency**, **network resilience**, and **efficient resource u
 
 Below are sample screenshots demonstrating the service in action:
 
-### Home page
+### Home page:
 <p align="center">
   <img src="screenshots/screenshot-1.png" alt="Audio Transcription WebSocket Flow" width="800"/>
 </p>
 
-### Live Transition
+### Live Transition:
 <p align="center">
   <img src="screenshots/screenshot-2.png" alt="Realtime Transcription Output" width="800"/>
 </p>
